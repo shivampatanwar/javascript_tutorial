@@ -1,0 +1,29 @@
+properties
+
+1. javaScript  has only interpreter.
+2. javaScript has oops and object based scripting language.
+3. javaScript has single call stack.
+4. javaScript is weakly typed language.
+5. javaScript is case sensitive. 
+6. javaScript is synchronous. -> promise 
+
+
+
+javaScript is lightweight; ->  it has only interpreter and no power system is required
+
+
+object
+1. window (console, document)
+2. console -> print statement
+3. document -> to write text in browser(document)
+4. screen 
+
+
+console object method
+console.log()
+
+
+document object method
+document.write()
+document.writeln()
+
