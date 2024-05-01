@@ -108,9 +108,78 @@ async ->
 defer-> first html excutes then javaScript 
 
 
+----------------------------------------------------------------------------------------------
+
+scope ->
+1. Global scope  ->  outside of function/method.
+2. Local scope ->   inside a function/method.
+
+(Outer Scope -> other than local and global scope (incase of nested function))
+Nested function -> a Function inside another function.
+
+----------------------------------------------------------------------------------------------
+
+variable -> variables are the named memory location which is used to store some  data or value and it can be change n no of times during execution.
+
+types of varible -> 
+1. var  (global)
+2. let  (local, functional, block, script)
+3. const  (local, functional, block, script)
+
+variable_type variable_name = value;
+
+var v = 10;   (number)
+var v = "Hello";   (string)
+var v = true;  (boolean)
+var v = undefind;  (undefined)
+var v = null;  (null)
+var v = 10000n;  (bigint)
 
 
 
+var v = NaN;  (nan -> not a number -> number )
+NaN = "A"-3 or 10-"F"
 
 
 
+Var ->  
+1. declaration.  
+
+    variable_type variable_name;
+    var a;
+    let b;
+    const c;  // not possible
+
+
+2. declaration and initialization.
+
+    variable_type variable_name = value;
+    var a = 10;
+    let b = 20;
+    const c = 30;
+
+3. re-initialization.
+
+    variable_type variable_name = value;
+    var a = 10;
+    let b = 10;
+    const c = 10;
+
+    a = 30; 
+    b = 30; 
+    c = 30; // not possible 
+
+
+
+4. Re-Declaration.
+
+    variable_type variable_name = value;
+    var a = 10;
+    let b = 30;
+    const c = 30;
+
+    var a = 50;  
+    let b = 90; //not possible.
+    const c = 70; //not possible.
+
+    
