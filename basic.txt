@@ -105,7 +105,10 @@ async ->
 2. both html and  javaScript execute parallelly.
 
 
-defer-> first html excutes 
+defer-> first html excutes then javaScript 
+
+
+
 
 
 
