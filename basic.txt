@@ -43,7 +43,7 @@ scripting language ->
 1. it is interpreted at runtime instead of compiled
 2. it is designed to communicate with other other programming language.
 
-
+--------------------------------------------------------------------------------------------
 
 
 html extension ->  .html   or .htm
@@ -51,6 +51,7 @@ css extension ->  .css
 javascript extension ->  .js 
 
 
+-----------------------------------------------------------------------------------------------
 
 
 javascript engine -> 
@@ -63,7 +64,7 @@ safari -> Js core
 
 
 
-
+----------------------------------------------------------------------------------------
 
 how to write javaScript inside html ->
 
@@ -93,6 +94,18 @@ how to write javaScript inside html ->
 
 Note :  script tag should be before body closing tag.
 
+
+-----------------------------------------------------------------------------------------------
+Async and defer 
+
+<script  async  defer></script>
+
+async ->  
+1. it executes in the last.
+2. both html and  javaScript execute parallelly.
+
+
+defer-> first html excutes 
 
 
 
