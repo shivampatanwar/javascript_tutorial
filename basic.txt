@@ -7,10 +7,11 @@ properties
 5. javaScript is case sensitive. 
 6. javaScript is synchronous. -> promise 
 
-
+------------------------------------------------------------------------------------------
 
 javaScript is lightweight; ->  it has only interpreter and no power system is required
 
+------------------------------------------------------------------------------------------
 
 object
 1. window (console, document)
@@ -34,6 +35,7 @@ developer of css          ->  hakon wium lie in 1996
 developer of javascript   ->  brendon hich  in  may 1995
 
 
+--------------------------------------------------------------------------------------------
 
 what is javascript ->   javascript is a scripting language to write some basic functionality.
 (Functionality)
@@ -183,3 +185,21 @@ Var ->
     const c = 70; //not possible.
 
     
+-----------------------------------------------------------------------------------------
+
+hoisting  -> utilizing the variable before initialization line.
+
+
+var a = 10;
+console.log(a);
+
+
+console.log(a);  -> utilizing
+var a = 10;  -> initialization 
+
+
+
+for let and const  -> hoisting is not possible 
+Error -> Reference Error -> TDz -> temporal dead zone -> time gap between utilization and initialization line
+
+------------------------------------------------------------------------------------------
