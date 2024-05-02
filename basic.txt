@@ -203,3 +203,50 @@ for let and const  -> hoisting is not possible
 Error -> Reference Error -> TDz -> temporal dead zone -> time gap between utilization and initialization line
 
 ------------------------------------------------------------------------------------------
+
+tokens -> tokens are the smallest individual unit of javaScript program.
+
+1. identifier -> name given to the javaScript program
+2. keywords -> predefined reserved words which has its own meaning
+3. literal -> values which is used to performed some operation.
+4. operators -> is a symbol which is used to perform some operation
+5. seperator -> used to seperate given code
+6. comments -> additional information about javaScript code/program
+
+-------------------------------------------------------------------------------------------
+(64 - 16(ES 5/6) = 48)
+keywords --> if, else, while, do, for, 
+
+-------------------------------------------------------------------------------------------
+
+literal ->  
+1. primitive   -> number, string, boolean, undefind, null, bigint.(immutable, object dereferencing)
+2. non primitive -> function, array, object. (mutable, object referencing)
+
+
+
+function ->  (10)
+1. ananymous Function
+2. named function
+3. functional expression
+4. first class function
+5. arrow function
+6. higher order function
+7. callback function
+8. nested function
+9. generator function
+10. immediate invoking function
+
+
+array -> 
+1. filter()
+2. map()
+3. reduce()
+
+
+object ->
+1. date
+2. time
+3. Math
+
+---------------------------------------------------------------------------------------------
