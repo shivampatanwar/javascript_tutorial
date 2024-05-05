@@ -220,8 +220,17 @@ keywords --> if, else, while, do, for,
 -------------------------------------------------------------------------------------------
 
 literal ->  
-1. primitive   -> number, string, boolean, undefind, null, bigint.(immutable, object dereferencing)
-2. non primitive -> function, array, object. (mutable, object referencing)
+1. primitive (6)  -> number, string, boolean, undefind, null, bigint.(immutable, object dereferencing)
+2. non primitive (3) -> function, array, object. (mutable, object referencing)
+
+
+1. Number  -> -1, 0, 1.5
+2. String -> "Hello", 'Hello', `Hello` (backtick)
+
+        backtick ->   1. templete string.  (multi line string)
+                      2. interpolation.    ${variable_name} (we can write/print variable inside string)
+
+3. Boolean -> 
 
 
 
